@@ -1,0 +1,22 @@
+.formHeader {
+  text-align: center;
+}
+.formCustomStyles {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  .ant-form-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .ant-col {
+      max-width: 400px;
+      width: 300px;
+    }
+  }
+}
+.post {
+  width: 100px;
+  height: 150px;
+  margin: 10px;
+}
